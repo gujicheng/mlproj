@@ -43,7 +43,7 @@ characteristic_function = {(1,):100,(2,):200,(3,):300,(1,2):500,(2,3):600,(1,3):
 if __name__ == '__main__':
     N = 3 # # of element in set N
     K = 1 # the maximum number of element in set K
-    data1 = dataset(3,1)
+    data1 = dataset(N,K)
     data1.generate_dataset(characteristic_function)
     print("data1.vfunction_for_N",data1.vfunction_for_N)
     print("data1.vfunction_for_K",data1.vfunction_for_K)
